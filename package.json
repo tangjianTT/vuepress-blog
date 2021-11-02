@@ -1,0 +1,37 @@
+{
+  "name": "vuepress-blog",
+  "version": "1.0.0",
+  "description": "一个极简主义Blog网站",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "serve": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/penggang-home/vuepress-blog"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "@vuepress-reco/vuepress-plugin-pagation": "^1.6.0",
+    "@vuepress-yard/vuepress-plugin-window": "^1.0.10",
+    "jquery": "^3.6.0",
+    "vuepress-plugin-cursor-effects": "^1.0.2"
+  },
+  "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.3",
+    "moment": "^2.29.1",
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-meting": "^0.3.1",
+    "vuepress-plugin-reading-progress": "^1.0.10",
+    "vuepress-theme-reco": "^1.6.6"
+  }
+}
